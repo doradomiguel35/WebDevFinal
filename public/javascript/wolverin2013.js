@@ -31,6 +31,7 @@ function x(){
 					 
 					 <ul>
 						<li><a class="active" href="/">Home</a></li>
+						<li><a href="/about">About</a></li>
 						<li><a href="/logan">Logan(2017)</a></li>
 						<li><a href="/wolverine2013">The Wolverine (2013)</a></li>
 						<li><a href="/wolverineorigins">X-Men Origins: Wolverine</a></li>
