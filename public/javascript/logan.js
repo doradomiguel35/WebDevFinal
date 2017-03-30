@@ -38,7 +38,7 @@ function x(){
 						</ul>
 
 					<br>
-					<img src="${res.Poster}" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;" height="500" width="500"/> 
+					<img id="myImg" src="${res.Poster}" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;" height="500" width="500"/> 
 					<iframe width="950" height="500" src="https://www.youtube.com/embed/gbug3zTm3Ws" frameborder="0" allowfullscreen></iframe>
 					
 					
