@@ -1,8 +1,31 @@
 $('#home').html(`
 	<br><br><br><br><br><br><br><br><br>
-
+	
 	<div class="cssload-loader">Loading</div>
+	<br>
+	<br>
+	<div id="myProgress">
+  	<div id="myBar">10%</div>
+	</div>
+	<script>
+	
+	  var elem = document.getElementById("myBar");   
+	  var width = 10;
+	  var id = setInterval(frame, 10);
+	  function frame() {
+	    if (width >= 100) {
+	      clearInterval(id);
+	    } else {
+	      width++; 
+	      elem.style.width = width + '%'; 
+	      elem.innerHTML = width * 1  + '%';
+	    }
+	  }
+	
+	</script>
 	`);
+
+
 // $('#app').html(`<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
 // 	<div class="w3-light-grey">
 //   <div class="w3-container w3-padding-large w3-red w3-center" style="width:50%">50%</div>
