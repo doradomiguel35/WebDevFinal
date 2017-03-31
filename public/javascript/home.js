@@ -1,9 +1,4 @@
 $('#home').html(`
-	<br><br><br><br><br><br><br><br><br>
-	
-	<div class="cssload-loader">Loading</div>
-	<br>
-	<br>
 	<div id="myProgress">
   	<div id="myBar">10%</div>
 	</div>
@@ -23,6 +18,12 @@ $('#home').html(`
 	  }
 	
 	</script>
+	<br><br>
+
+	<div class="cssload-loader">Loading</div>
+	<br>
+	<br>
+	
 	`);
 
 
